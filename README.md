@@ -1,11 +1,11 @@
 # A simple Lending Microservices
 
 ## About the Project
---------------------
+
 DigiLend is a basic loan management microservice created using Java EE, the Spring Framework, AngularJS,and Hibernate.
 
 ## It Supports:
----------------
+
 1. Java and J2EE
 2. Run on Jetty
 3. Mysql
@@ -59,7 +59,7 @@ database-sample folder.
 
 
 ## How to build and run:
------------------------
+
 1. Create database with sample data by running database-sample/loan_db.sql
 
 2. To connect to your MySQL database go to src/main/resources/hibernate.cfg.xml and replace
@@ -72,7 +72,6 @@ the hibernate.connection.password property with your root password.
 5. Run with the server of your choice e.g. Glasfish, Tomcat etc. 
 
 ## Completed specifications for the project:
--------------------------------------------
 
 1.	A lending microservice has been designed
 
@@ -94,6 +93,6 @@ the hibernate.connection.password property with your root password.
 	- API testing completed via postman 100%
 
 ## Uncompleted specifications:
------------------------------
+
    - Though automation testing framework with TestNG has been setup successfully, due to the deadline i.e. time constraint, I haven't written the automation scripts. If am allowed, I can complete.
 
