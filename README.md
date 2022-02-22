@@ -1,4 +1,4 @@
-# A simple Lending Microservices
+# A Simple Lending Microservices
 
 ## About the Project
 
@@ -40,15 +40,39 @@ DigiLend is a basic loan management microservice created using Java EE, the Spri
 - Allow a logged in loan officer to select a customer and create a new loan, the loan ID is an automatic generated number
 
 5. Data structure used;
-	** loan_officer - {officer_name, officer_id_no}**
-	** customer - {cust_name, cust_id_no}**
-	** loan - {loan_no,loan_status_id,officer_id_no,cust_id_no, loan_amt}**
-	** repayments - {loan_no, amt_repaid,date_repaid}**
 
-6. Assume data for loan officer doesn't change - {"officer_name":"John Doe","officer_id_no":"1234"}
+	- loan_officer
 
-7. Assume loan status of [{"loan_status_id":"1","loan_status_name":"Active"},{"loan_status_id":"2","loan_status_name""Closed"}]  
+	```
+	{officer_name, officer_id_no}
+	```
+	- customer
 
+	```
+	{cust_name, cust_id_no}
+	```
+	- loan
+
+	```
+	{loan_no,loan_status_id,officer_id_no,cust_id_no, loan_amt}
+	```
+	- repayments
+
+	```
+	{loan_no, amt_repaid,date_repaid}
+	```
+
+6. Assume data for loan officer doesn't change
+
+```
+{"officer_name":"John Doe","officer_id_no":"1234"}
+```
+
+7. Assume loan status of
+
+```
+[{"loan_status_id":"1","loan_status_name":"Active"},{"loan_status_id":"2","loan_status_name""Closed"}]
+```  
 
 *There is only one loan officer in the database, and has a passcode: 01010101*
 
@@ -62,8 +86,8 @@ database-sample folder.
 
 1. Create database with sample data by running database-sample/loan_db.sql
 
-2. To connect to your MySQL database go to src/main/resources/hibernate.cfg.xml and replace
-the hibernate.connection.password property with your root password.
+2. To connect to your MySQL database go to *src/main/resources/hibernate.cfg.xml* and replace
+the *hibernate.connection.password* property with your root password.
 
 3. The necessary libraries (if not available) should be downloaded via maven. Follow your IDE of choice process of adding/installiong libraries.
 
