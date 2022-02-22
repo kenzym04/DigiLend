@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class catalog="loan_db" name="com.ken.loanapp.model.Repayment"
+		optimistic-lock="version" table="repayment">
+		<id name="loanNo" type="int">
+			<column name="loan_no" />
+			<generator class="foreign">
+				<param name="property">loan</param>
+			</generator>
+		</id>
+		<one-to-one class="com.ken.loanapp.model.Loan"
+			constrained="true" name="loan" />
+		<property name="amtRepaid" type="big_decimal">
+			<column name="amt_repaid" precision="9" />
+		</property>
+		<property name="dateRepaid" type="date">
+			<column length="10" name="date_repaid" />
+		</property>
+	</class>
+</hibernate-mapping>
