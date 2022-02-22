@@ -120,3 +120,5 @@ the *hibernate.connection.password* property with your root password.
 
    - Though automation testing framework with TestNG has been setup successfully, due to the deadline i.e. time constraint, I haven't written the automation scripts. If am allowed, I can complete.
 
+  Thanks for your time
+
