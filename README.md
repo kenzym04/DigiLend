@@ -1,4 +1,4 @@
-# Simple  Application
+# A simple Lending Microservices
 
 ## About the Project
 --------------------
@@ -6,11 +6,11 @@ DigiLend is a basic loan management microservice created using Java EE, the Spri
 
 ## It Supports:
 ---------------
-1. Java and J2EE - http://www.oracle.com/technetwork/java/javaee/overview/index.html
-2. Run on Jetty - https://en.wikipedia.org/wiki/Jetty_%28web_server%29
+1. Java and J2EE
+2. Run on Jetty
 3. Mysql
-4. Hibernate for data management - http://hibernate.org/orm/
-5. Spring Framework - http://projects.spring.io/spring-framework/
+4. Hibernate for data management
+5. Spring Framework
 6. AngularJS
 
 ## The application has a simple AngularJS web app that reads and writes data to an API. It serves the following objectives:
@@ -58,7 +58,7 @@ The details of the above users or the second customer are available in the sql f
 database-sample folder.
 
 
-## How to build and run
+## How to build and run:
 -----------------------
 1. Create database with sample data by running database-sample/loan_db.sql
 
@@ -71,7 +71,7 @@ the hibernate.connection.password property with your root password.
 
 5. Run with the server of your choice e.g. Glasfish, Tomcat etc. 
 
-## Completed specifications for the project
+## Completed specifications for the project:
 -------------------------------------------
 
 1.	A lending microservice has been designed
@@ -93,8 +93,7 @@ the hibernate.connection.password property with your root password.
 	- Manual testing completed 100%
 	- API testing completed via postman 100%
 
-## Uncompleted specifications
+## Uncompleted specifications:
 -----------------------------
-
-	- Though automation testing framework with TestNG has been setup successfully, due to the deadline i.e. time constraint, I haven't written the automation scripts. If am allowed, I can complete.
+   - Though automation testing framework with TestNG has been setup successfully, due to the deadline i.e. time constraint, I haven't written the automation scripts. If am allowed, I can complete.
 
