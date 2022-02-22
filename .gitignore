@@ -4,3 +4,7 @@
 *.jar
 *.class
 target/
+.settings/
+bin/
+*classpath
+*.project
