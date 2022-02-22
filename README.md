@@ -7,7 +7,7 @@ DigiLend is a basic loan management microservice created using Java EE, the Spri
 ## It Supports:
 
 1. Java and J2EE
-2. Run on Jetty
+2. Jetty, glassfish and Tomcat web servers etc
 3. Mysql
 4. Hibernate for data management
 5. Spring Framework
@@ -26,18 +26,18 @@ DigiLend is a basic loan management microservice created using Java EE, the Spri
 
 3. Customer
 
-- Allow customer to register with name and automatically get a code
-- Allow customer to login with code
-- Allow a logged in customer to see all loans with an active status
-- Allow a logged in customer to select a loan and service the loan
-- Allow a logged in customer to select a loan and update the repayment
-- Allow a logged in customer to select a loan and delete a repayment
+	- Allow customer to register with name and automatically get a code
+	- Allow customer to login with code
+	- Allow a logged in customer to see all loans with an active status
+	- Allow a logged in customer to select a loan and service the loan
+	- Allow a logged in customer to select a loan and update the repayment
+	- Allow a logged in customer to select a loan and delete a repayment
 
 4. Loan Officer
 
-- Allow loan officer to login with a pass_code
-- Allow a logged in loan officer to view all customers
-- Allow a logged in loan officer to select a customer and create a new loan, the loan ID is an automatic generated number
+	- Allow loan officer to login with a pass_code
+	- Allow a logged in loan officer to view all customers
+	- Allow a logged in loan officer to select a customer and create a new loan, the loan ID is an automatic generated number
 
 5. Data structure used;
 
@@ -84,7 +84,7 @@ database-sample folder.
 
 ## How to build and run:
 
-1. Create database with sample data by running database-sample/loan_db.sql
+1. Create database with sample data by running *database-sample/loan_db.sql*
 
 2. To connect to your MySQL database go to *src/main/resources/hibernate.cfg.xml* and replace
 the *hibernate.connection.password* property with your root password.
