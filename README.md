@@ -1,4 +1,4 @@
-# A Simple Lending Microservices
+# A Simple Lending Microservice
 
 ## About the Project
 
