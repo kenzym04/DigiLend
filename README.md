@@ -115,10 +115,3 @@ the *hibernate.connection.password* property with your root password.
 
 	- Manual testing completed 100%
 	- API testing completed via postman 100%
-
-## Uncompleted specifications:
-
-   - Though automation testing framework with TestNG has been setup successfully, due to the deadline i.e. time constraint, I haven't written the automation scripts. If am allowed, I can complete.
-
-  Thanks for your time
-
